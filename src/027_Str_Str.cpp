@@ -45,7 +45,7 @@ char *strStr(char *haystack, char *needle) {
 		else i = next[i];
 	}
 	if(i == nsize)
-	  retirn (cp + j - nsize + 1);
+	  return (cp + k - nsize + 1);
 	return NULL;
 	
 }
